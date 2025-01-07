@@ -11,7 +11,18 @@ import java.util.List;
 @AllArgsConstructor
 public class TermRecord {
 
+  /**
+   * The term id.
+   */
   private Long id;
+
+  /**
+   * The term word.
+   */
   private String word;
+
+  /**
+   * The synonyms of the term.
+   */
   private List<String> synonyms;
 }
